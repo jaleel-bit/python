@@ -29,6 +29,8 @@ prom = Promedio(A,n)
 cM,cm = cantidad(A,n,prom)
 print("La cantidad de digitos es:",n)
 print("El promedio es:",prom)
+print("El promedio es:",'{:.2f}'.format(prom)) #imprime con decimales
 print("La cantidad de mayores es:",cM)
 print("La cantidad de menores es:",cm)    
     
+
